@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  background: #f1f1f1;
+  line-height: 1.5;
+  color: #0f141e;
+}
+h1, .name {
+    font-family: 'Dancing Script', sans-serif; 
+    color: #4ad72a;
+    display: inline-block;
+}
+
+.bodyoll {
+  margin-top: 55px;
+}
+
+.navbar {
+    margin: 0px;
+    padding: 0px 20px;
+    list-style: none;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+   background-color: rgb(110, 109, 109) ;
+}
+.navbar li:hover{
+     background-color: #cecdcd ;
+}
+.navbar li {
+    margin-bottom: 15px;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+
+a:visited {
+  color: rgb(14, 13, 13);
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.ava {
+  width: 200px;
+  height: 200px;
+  border-radius: 16px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, .25);
+}
+
+.infohead {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.info-text {
+  margin-left: 40px;
+}
+
+.info-text p {
+  font-style: italic;
+  font-weight: bold;
+  color: #86898f;
+  margin: 0;
+}
+
+
+.wewere{
+    color: #86898f;
+    width: 100%;
+}
+
+.galery {
+    display: block;
+    height: 400px;
+    width: auto;
+    padding: 10px;
+    
+}
+
+.balijpg {
+position: static;
+height: 210px;
+width: auto;
+}
+
+.gejpg {
+    position: static;
+    height: 210px;
+    width: auto;
+}
+
+.amjpg {
+    position: static;
+    height: 200px;
+    width: auto;
+}
+
+.ufajpg {
+    position: static;
+    height: 210px;
+    width: auto;
+}
+
+.inoverjpg {
+    position: static;
+    height: 200px;
+    width: auto;  
+}
+
+.bikejpg {
+    position: static;
+    height: 200px;
+    width: auto;  
+}
+
+.kirilljpg {
+    position: static;
+    height: 200px;
+    width: auto; 
+}
+
+.card {
+  border-radius: 20px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+}
+
+
+.bg-yellow {
+  background: #fff9dc;
+}
+.galeryinf {
+    background: #4417a6;
+    opacity: 0,8;
+    border-radius: 20px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+
+}
+
+.bg-red {
+  background: #ffe5e5;
+}
+
+.bg-green {
+  background: #e5ffe7;
+}
+
+.btn {
+  background: #111;
+  padding: 15px 20px;
+  color: #fff;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.we {
+  padding: 0 20px;
+}
+
+.we li {
+  color: #86898f;
+  margin-bottom: 10px;
+}
+
+.link-list {
+  list-style: none;
+  padding: 0;
+}
+
+.link-list li {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 10px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+  color: #86898f;
+}
+
+.form h2 {
+  text-align: center;
+}
+
+.form-row {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.form-row .form-group {
+  margin-right: 20px;
+  width: 50%;
+}
+
+.form-row .form-group:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 650px) {
+  .form-row {
+    display: block;
+  }
+
+  .form-row .form-group {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
